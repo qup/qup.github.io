@@ -1,0 +1,60 @@
+---
+
+---
+@import "variables";
+
+$colors: (
+  "blue": $blue-500,
+  "indigo": $indigo-500,
+  "red": $red-500,
+  "orange": $orange-500,
+  "yellow": $yellow-500,
+  "green": $green-500,
+  "teal": $teal-500,
+  "cyan": $cyan-500,
+  "white": $white,
+  "gray": $gray-500,
+  "gray-dark": $gray-700
+) !default;
+
+$theme-colors: (
+  "red": $red-500,
+  "orange": $orange-500,
+  "green": $green-500,
+  "cyan": $cyan-500,
+  "teal": $teal-500,
+  "blue-gray": $blue-gray-500,
+  "deep-orange": $deep-orange-500,
+  "indigo": $indigo-500,
+  "blue": $blue-500,
+  "yellow": $yellow-500,
+  "gray": $gray-500,
+  "lime": $lime-500,
+  "amber": $amber-500,
+  "brown": $brown-500,
+  "white": $white,
+  "black": $black,
+  "light-blue": $light-blue-500
+) !default;
+
+$body-bg: $white;
+$body-color: rgba(0, 0, 0, .87);
+$font-family-sans-serif: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+
+@import "utilities";
+@import "components";
+@import "background";
+@import "page";
+@import "bootstrap/bootstrap";
+
+a, button {
+  transition: all .4s ease-in-out !important;
+}
+
+a {
+  color: $body-color;
+}
+
+a:hover {
+  text-decoration: none;
+}
