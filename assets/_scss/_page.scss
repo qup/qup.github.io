@@ -4,6 +4,12 @@
     width: 75%;
     margin: 0 auto;
     display: block;
+    transition: all .3s ease-in-out;
+    max-width: 3em;
+  }
+ 
+  img:hover {
+    opacity: .8;
   }
 }
 
