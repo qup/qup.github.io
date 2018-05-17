@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Industry; Sales - Web design and implementation, computer programming, consulting services.
   Founders; Jan Egil Staff Øvretveit, Casper Beyer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jekka.no" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://qup.no" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: janstovr
 github_username:  janstovr
 layouts_dir:     _layouts
